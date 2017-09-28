@@ -1,10 +1,25 @@
+
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
-        int sum = 0;
-        for (int i=1; i < 10; i++){
-            sum += i;
-        }
+        Fraction f = new Fraction(1,2);
+
     }
+
+
+
+}
+
+class Fraction {
+    private int num;
+    private int de;
+    Fraction(int num, int de){
+        this.num = num;
+        this.de = de;
+    }
+
+}
+
+class class PW extends PApplet{
+
 }
